@@ -138,6 +138,5 @@ extern char **environ, *toybox_version, toybuf[4096], libbuf[4096];
 #define TAGGED_ARRAY(X, ...) {__VA_ARGS__}
 
 #ifndef TOYBOX_VERSION
-#endif
 #define TOYBOX_VERSION "0.8.11-eraselk"
 #endif

@@ -1,0 +1,9 @@
+config TOYBOX_ON_ANDROID
+	bool
+	default y
+
+config TOYBOX_FORK
+	bool
+	default y
+
+	depends on !TOYBOX_FORCE_NOMMU
